@@ -1,7 +1,7 @@
 # Conversão (xml->json) em python
 
 ```sh
-    Como rodar?
+    # Como rodar?
     $ sudo pip install install xmltodict
     $ python3 converte_xml_json.py
 ```
