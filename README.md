@@ -6,7 +6,7 @@
 
     Como Rodar o programa?
     
-    //Instalar o modulo.
+    //Instalar o modulo xmltodict.
     $ sudo pip install install xmltodict
     
     //Execute o programa.
