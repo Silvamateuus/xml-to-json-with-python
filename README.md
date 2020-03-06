@@ -1,6 +1,9 @@
 # Conversão (xml->json) em python
 
 ```sh
+    Clonar Projeto:
+    $ git clone https://github.com/Silvamateuus/xml-json-python.git
+
     Como Rodar o programa?
     
     //Instalar o modulo.
