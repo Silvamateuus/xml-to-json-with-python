@@ -7,7 +7,7 @@
     Como Rodar o programa?
     
     //Instalar o modulo xmltodict.
-    $ sudo pip install install xmltodict
+    $ sudo pip install xmltodict
     
     //Execute o programa.
     $ python3 converte_xml_json.py
