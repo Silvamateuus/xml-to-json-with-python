@@ -18,7 +18,7 @@
 
     - Ao rodar o script destacado em verde 
     - Será criado uma pasta chamada (folder_json) destacada em vermelho
-    - Onde receberá os arquivos (JSON convertidos do XML).
-    - Arquivos XML estão na raiz do projeto.
+    - Onde receberá os arquivos (JSON convertidos do XML)
+    - Arquivos XML ficam na pasta (folder_xmls)
 
- ![<#>](https://github.com/Silvamateuus/xml-json-python/blob/master/img/atual.png) 
+ ![<#>](https://github.com/Silvamateuus/xml-json-python/blob/master/img/img.png) 
