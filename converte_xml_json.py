@@ -14,7 +14,7 @@ for x in funcionalidades:
     
     resultado = x
 
-    with open(resultado + '.xml') as in_file:
+    with open('folder_xmls/' + resultado + '.xml') as in_file:
         
         xml = in_file.read()
         
