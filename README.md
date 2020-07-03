@@ -4,7 +4,7 @@
     $ git clone https://github.com/Silvamateuus/xml-to-json-with-python.git
 
 ## Instalação das libs:
-    $ sudo pip -r requeriments.txt
+    $ pip install -r requeriments.txt
     
 ## Execute o programa:
     $ python3 converte_xml_json.py
