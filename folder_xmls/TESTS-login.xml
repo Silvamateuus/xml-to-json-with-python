@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="10" failures="0" hostname="dev-mateus" name="login.Fluxo de login" skipped="0" tests="3" time="50.286824" timestamp="2020-03-03T15:51:25.941502"><testcase classname="login.Fluxo de login" name="Login com sucesso" status="passed" time="24.004725"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenário: Login com sucesso
+    Dado que eu esteja na página de login do sistema "http://localhost:4200/login" ... passed in 17.332s
+    Quando eu efetuo login inserindo o usuário "mateus@dcide.com.br" e a senha "Dcide@2019" ... passed in 5.664s
+    Então eu devo ser redirecionado para a tela principal ... passed in 0.000s
+    E validar se o titulo da página é "Risk" ... passed in 1.008s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="login.Fluxo de login" name="Login sem sucesso [Usuario e senha incorreto]" status="passed" time="13.520145"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenário: Login sem sucesso [Usuario e senha incorreto]
+    Dado que eu esteja na página de login do sistema "http://localhost:4200/login" ... passed in 8.104s
+    Quando eu efetuo login inserindo o usuário "errado@dcide.com.br" e a senha "2019" ... passed in 5.416s
+    Então devera exibir a seguinte mensagem Usuário inválido. ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="login.Fluxo de login" name="Login sem sucesso [Sem preencher os campos]" status="passed" time="12.761954"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenário: Login sem sucesso [Sem preencher os campos]
+    Dado que eu esteja na página de login do sistema "http://localhost:4200/login" ... passed in 8.545s
+    Quando eu não insiro usuário e a senha ... passed in 4.216s
+    Então deverá exibir nos campos a seguinte mensagem Campo obrigatório ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

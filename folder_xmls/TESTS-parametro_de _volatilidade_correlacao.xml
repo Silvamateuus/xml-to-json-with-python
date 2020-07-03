@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" hostname="dev-mateus" name="parametro_de _volatilidade_correlacao.Volatilidade Correlação" skipped="0" tests="1" time="33.648616" timestamp="2020-03-03T15:54:02.196611"><testcase classname="parametro_de _volatilidade_correlacao.Volatilidade Correlação" name="Volatilidade e correlação com sucesso" status="passed" time="33.648616"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenário: Volatilidade e correlação com sucesso
+    Dado que eu esteja na página de login do sistema "http://localhost:4200/login" ... passed in 7.986s
+    Quando eu efetuo login inserindo o usuário "mateus@dcide.com.br" e a senha "Dcide@2019" ... passed in 5.536s
+    Então eu devo ser redirecionado para a tela principal ... passed in 0.000s
+    E validar se o titulo da página é "Risk" ... passed in 1.008s
+    E inserir a data no caledario "01012020" ... passed in 1.286s
+    E selecionar o tipo de fonte Incentivada ... passed in 2.202s
+    E adicionar o prêmio Sul ... passed in 2.160s
+    Então clica no botão Carregar Preço ... passed in 10.111s
+    E resetar analise ... passed in 1.133s
+    E confirmar o reset da análise no modal ... passed in 1.157s
+    E a seguinte mensagem para o titulo deverá ser exibida "Carregado!" ... passed in 0.039s
+    E a seguinte mensagem deverá ser exibida "Análise resetada com sucesso." ... passed in 1.031s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
