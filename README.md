@@ -14,7 +14,7 @@
     - que veio do reports de um teste automatizado e através do script (converte_xml_json.py) que esta na raiz é convertido
     - ods arquivos (xml para json).   
 
-### Segue print:
+### Abaixo o print:
 
     - Ao rodar o script destacado em verde 
     - Será criado uma pasta chamada (folder_json) destacada em vermelho
